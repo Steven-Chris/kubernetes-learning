@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+
+# Sequelize migrations and seeders
+/sequelize/
+*.sql
+
+# Docker files
+docker-compose.override.yml
+.docker/
+Dockerfile*
+
+# Logs
+logs/
+*.log
+
+# IDE or Editor files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Other files to ignore
+coverage/
+*.tgz
+*.bak
