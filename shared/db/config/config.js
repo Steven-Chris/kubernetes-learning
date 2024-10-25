@@ -1,3 +1,5 @@
+require("./env.js"); // Import env config first
+
 module.exports = {
   development: {
     username: process.env.DB_USER,
